@@ -1,0 +1,15 @@
+=> SETTING ENV
+npm install dotenv --save
+
+=> DATABASE MODEL MANAGEMENT DB:MIGRATE
+Install Sequelize
+npm install sequelize sequelize-cli --save
+CEK COMMAND: npx sequelize
+
+=> SERVER AUTO RUN NODEMON
+npm install -g nodemon
+RUN : nodemon bin/www
+
+=> BASE64 IMAGE MANAGEMENT
+Cek base64 untuk Image dan upload Image
+npm install is-base64 base64-img --save
